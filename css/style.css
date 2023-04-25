@@ -1,0 +1,135 @@
+body{}
+.header{
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+    background-image: url(../images/header-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.header-content{
+    width: 40%;
+    align-items: start;
+    margin-left: 15%;
+}
+.header-content h3{
+   
+    font-size: 3vw;
+    text-transform: capitalize;
+    font-style: italic;
+    padding-top: 100px;
+}
+.header-content h1{
+    font-size: 5vw;
+    text-transform: uppercase;
+    margin-top: -21px;
+
+}
+.header-content p{
+    font-size: 2vw;
+    text-transform: capitalize;
+
+}
+.header-content a{
+    line-height: 64px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    font-size: 2vw;
+    text-transform: capitalize;
+    padding: 10px 12px;
+    background: #ff1b10ad;
+
+}
+.headerImg{
+   
+    width: 40%;
+   
+}
+.headerImg img{
+    width: 80%;
+    padding-top: 78px;
+}
+.sub-header{
+    width: 100%;
+    height: 500px;
+    display: inline-flex;
+    background-image: url(../images/biography-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.sub-header h1{
+    margin-top: 33%;
+    font-size: 4vw;
+}
+.sub-header img{
+    margin-left: 80px;
+}
+.work{
+   
+    width: 100%;
+    height: 400px;
+    background-image: url(../images/latest-work-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    
+  
+}
+.work h1{
+    font-size: 4vw;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 30px;
+}
+.protf{
+    display: inline-flex;
+    width: 80%;
+    margin-left: 10%;
+}
+.protf img{
+    width: 30%;
+    margin-left: 3.3%;
+}
+.news{
+    text-align: center;
+    width: 100%;
+    height: 450px;
+    background-image: url(../images/footer-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.news h1{
+    font-size: 4vw;
+    text-transform: capitalize;
+
+}
+.news h4{
+    font-size: 3vw;
+    text-transform: capitalize;
+    font-style: italic;
+}
+.news h5{
+    font-size: 2vw;
+    text-transform: capitalize;
+    margin-top: -30px;
+}.news p{
+    width: 46%;
+    font-size: 2vw;
+    margin-left: 27%;
+    text-transform: capitalize;
+}
+.mail{
+    background: red;
+    width: 54%;
+    margin-left: 23%;
+    box-shadow: 0px 1px 8px;
+    padding: 5px 0px;
+    margin-top: 50px;
+}
+.footer{
+   
+    text-align: center;
+    text-transform: capitalize;
+   
+}
